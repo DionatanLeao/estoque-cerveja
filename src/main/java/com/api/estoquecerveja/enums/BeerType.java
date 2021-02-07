@@ -3,6 +3,12 @@ package com.api.estoquecerveja.enums;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
+/***
+ * 
+ * @author dionatan
+ *
+ */
+
 @Getter
 @AllArgsConstructor
 public enum BeerType {
