@@ -9,6 +9,10 @@ import org.springframework.stereotype.Service;
 
 import com.api.estoquecerveja.dto.BeerDTO;
 import com.api.estoquecerveja.entity.Beer;
+import com.api.estoquecerveja.exception.BeerAlreadyRegisteredException;
+import com.api.estoquecerveja.exception.BeerNotFoundException;
+import com.api.estoquecerveja.exception.BeerStockExceededException;
+import com.api.estoquecerveja.mapper.BeerMapper;
 import com.api.estoquecerveja.repository.BeerRepository;
 
 import lombok.AllArgsConstructor;
